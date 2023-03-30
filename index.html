@@ -1,52 +1,102 @@
-<!-- This is an html page for Prof. Husain's JNL221.
-This page will be used at times for explaining homework instructions
-or displaying student work. -->
+<!-- This is an html page for the JNL221 class repository.
+This page will be used at times for explaining html and css,
+for explaining assignments, or displaying student work. -->
+
+Tuesday, March 28
 
 <!DOCTYPE html>
 <html>
+
 <head>
+	
 	<meta charset="utf-8">
 	<title>Foundations Of Data And Digital Journalism</title>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="../index.css" />
+	
+	<!-- This is where this page's style sheet is defined. -->
+	<link type="text/css" rel="stylesheet" href="index.css" />
+
 </head>
 
-<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
-
 <body>
-	
-	<!-- Intro row -->
+
+	<!-- This is the header row for this page. -->
 	<div id="intro" class="col-sm-12">
-		<h1> <!-- /// EDITABLE ONE /// --> Charles Goldberg </h1>
-		<h4> <!-- /// EDITABLE TWO /// --> JNL 221, Syracuse University </h4>
+		<h1>Foundations Of Data And Digital Journalism</h1>
+		<h4>Syracuse University, Spring 2022</h4>
 	</div>
+	<h1>I want to go back to bed</h1>
+		<h4>I'm very tired</h4>
+		<div></div>
+
+<div Style="Border: 2px solid green">
 
 	<div class="container content">
-		<h2>Hate Crimes in New York</h2>
-		<p class="subhed">Religions attacked in NYPD Recorded Hate Crimes from 2019 to Present</p>
-		<p class="byline">Charles Goldberg</p>
+		<h2>HTML tags you should know</h2>
 		
-		<p>When creating my Datawrapper chart I decided to work on the dataset I found including all confirmed hate crime incidents in New York City recorded by the NYPD from 2019 to 2022. Here is where I made a grouped bars chart to be able to show the numbers of hate crimes recorded attacking each religion since 2019. </p>
-		<p>In more detail I decided to make each religion a differently colored bar with the Jewish population being red to not only show the amount of crimes targeting them but also because I believe that red is a color of danger and warning. I decided to take this whole image a step further when I made my dataviz. </p>
-		<p>Here I still included a bar chart but I had the “COEXIST” logo melting into the numbers of hate crimes representing religions as a sign of not only irony but also as a sign of failure to follow this belief for those who have committed such crimes. Just like in the logo each letter of the “COEXIST” represented a different religion. 
-If I were to edit this differently in the future I would dive deeper into figuring out the labeling problem I have on my datawrapper. As you can see the left column of my datawrapper isn’t labeled and I tried for so long to be able to get it to be labeled but was unsuccessful.</p>
+		<!-- Paragraph tag -->
+		<p> This is called a p tag. P stands for 'paragraph'. In here, you'd put text to form a paragraph. Don't forget to close the p tag! </p>
+		<p> This is a new paragraph.</p>
+		
+		<!-- A href tag -->
+		<p> This is also a paragraph. However, this paragraph contains an a tag, which allows you to insert a link. In this paragraph, I want to show you <a href="http://dailyorange.com/2021/10/syracuse-poet-reads-verses-ghanian-heritage-salt-city-market/" target="_blank">an article on The Daily Orange</a> about a poet from Ghana. Pay attention to the structure of the tag and what goes inside of it. 'href' and 'target' are both attributes of the tag, and they help you specify what exactly that tag should look like or contain.</p>
+		
+		<!-- Heading tags -->
+		<p> HTML has six different heading tags. They look like this:</p>
+		<h1>Reese Gaudeloi.</h1>
+		<h2>This is heading 2.</h2>
+		<h3>This is heading 3.</h3>
+		<h4>This is heading 4.</h4>
+		<h5>This is heading 5.</h5>
+		<h6>This is heading 6.</h6>
+		
+		<p>The headings above have different sizes and colors because of how they're defined in 'index.css'. We'll talk more about that later.</p>
+		
+		<h3> More HTML tags! </h3>
+		
+		<!-- Div tag -->
+		<p>A div tag defines a section of an HTML page. For example, if I wanted to syle a particular section differently, I could put it inside a div and give that div some styles:</p>
+		<div style="border: 2px solid red;">
+			<p> This section should have a red border.</p>
+		</div>
 
-		<iframe title="Jewish Religion has most hate crimes against them since 2019 in New York" aria-label="Grouped Bars" id="datawrapper-chart-Ltisy" src="https://datawrapper.dwcdn.net/Ltisy/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="348" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
+		<!-- Iframe tag -->
+		<p>An iframe, or inline frame, embeds another document or piece of code into your current HTML page. This is how we insert our Datawrapper charts into an HTML web page!</p>
+		<iframe title="Syracuse saw a nearly 2% population decrease since 2010" aria-label="Map" id="datawrapper-chart-xNwOX" src="https://datawrapper.dwcdn.net/xNwOX/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="463"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-		<img src="IMG_7983.JPG="" height="100px" width="200px" />
+		<!-- Image tag -->
+		<p>An img tag creates a space in your HTML page for an image. If you are adding an image into your page, your image must also exist in your repository, and you must define its location within the src attribute of your img tag.</p>
+		<img src="img_cole_insta.png" alt="an image of a photograph, from Teju Cole's instagram account" height="300px" width="400px">
 
+		<!-- Ordered and unordered list tags -->
+		<p>List tags are also useful! You can have an ordered list, like this one:</p>
+		<ol>
+			<li>Freshman</li>
+			<li>Sophomore</li>
+			<li>Junior</li>
+			<li>Senior</li>
+		</ol>
+		<p>You can also create an unordered list, like this one:</p>
+		<ul>
+			<li>Newhouse</li>
+			<li>Maxwell</li>
+			<li>Whitman</li>
+			<li>Falk</li>
+		</ul>
+
+		<p>There are literally <i>hundreds</i> of HTML tags. You can learn more about each of them on <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank">W3Schools</a>, a very commonly-used html reference page.
+	
 	</div>
 
-
-  	<!-- About Row -->
+  
+  	<!-- This is the footer row for this page. -->
 	<div class="row">
 		<div id="end" class="col-sm-12">
-			<h4> <!-- /// EDITABLE THREE /// --> this page was made in github pages with montserrat and open sans to hold assignments for a course at Newhouse </h4>
+			<h4>this page was published by github pages. fonts: montserrat, open sans.</h4>
 		</div>
 	</div>
-
 </body>
+
 </html>
